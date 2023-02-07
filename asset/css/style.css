@@ -98,27 +98,30 @@ main section{
 .card{
     width: 100%;
     justify-content: center;
+    align-items: center;
 }
 .img{
     width: calc((100% / 12) * 8);
     padding: 1rem;
 }
+.img img{
+    width: 100%;
+}
 .area_text{
     width: calc((100% / 12) * 7);
     padding: 1rem;
-    
 }
 .area_text h3{
-    color: var(--cd-opbutt)
+    color: var(--cd-opbutt);
+    max-width: 50%;
+    font-size: 50px;
+    line-height: 4rem;   
 }
 .area_text p{
-    color: var(--cd-opbutt)
-}
-.area_text h3{
-    font-size: 50px;   
-}
-.area_text p{
+    color: var(--cd-opbutt);
+    max-width: 50%;
     font-size: 20px;
+    line-height: 3rem;
 }
 /* section frist */
 section .frist{
