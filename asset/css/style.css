@@ -1,0 +1,236 @@
+/* utility */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    text-decoration: none;
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.dflex{
+    display: flex;
+}
+/* colors */
+:root{
+--cd-bkfooter: #3161e0;
+--cd-dwbutt: #646668;
+--cd-opbutt: #23272a;
+--cd-fkwhite: #f6f6f6;
+--cd-logo: #7289da;
+}
+/* debug */
+.debug header{
+    height: 700px;
+    border: 1px solid black;
+}
+.debug section{
+    height: 600px;
+}
+.debug .card{
+    background-color: red;
+    height: 500px;
+}
+.debug .card_fourh{
+    background-color: red;
+    height: 500px;
+}
+.debug .img{
+    background-color: rgb(232, 150, 127);
+}
+.debug .area_text{
+    background-color: rgb(114, 61, 61);
+}
+/* header */
+header{
+    flex-direction: column;
+    background-color: var(--cd-bkfooter)
+
+}
+nav{
+    margin: 0 200px;
+    padding: 1rem 0;
+    justify-content: space-between;
+    font-size: 22px;
+}
+
+.download_banner{
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+}
+.download_banner section{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+.download_banner h1{
+    font-size: 50px;
+    padding: 2rem 0;
+
+}
+.download_banner p{
+    font-size: 20px;
+    padding: 2rem 0;
+}
+.download_banner button{
+    border-radius: 28px;
+    font-size: 20px;
+    padding: 16px 32px;
+    border: 0;
+}
+.download_button{
+    background-color: #ffffff;
+    color: var(--cd-dwbutt)
+}
+.open_button{
+    background-color: var(--cd-opbutt)
+}
+/* main */
+main section{
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px 200px;
+    align-items: center;
+}
+.card{
+    width: 100%;
+    justify-content: center;
+}
+.img{
+    width: calc((100% / 12) * 8);
+    padding: 1rem;
+}
+.area_text{
+    width: calc((100% / 12) * 7);
+    padding: 1rem;
+    
+}
+.area_text h3{
+    color: var(--cd-opbutt)
+}
+.area_text p{
+    color: var(--cd-opbutt)
+}
+.area_text h3{
+    font-size: 50px;   
+}
+.area_text p{
+    font-size: 20px;
+}
+/* section frist */
+section .frist{
+    background-color: white;
+}
+.frist .img{
+    order: -1;
+}
+/* section second */
+section .second{
+    background-color: var(--cd-fkwhite)
+}
+.second .img{
+    order: 1;
+}
+/* third section */
+section .third{
+    background-color: white;
+}
+.third .img{
+    order: -1;
+}
+/* fourh section */
+section .fourh{
+    background-color: var(--cd-fkwhite)
+}
+.card_fourh{
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+.fourh .img{
+    order: -1;
+}
+.fourh h4{
+    color: black;
+    font-size: 30px
+}
+.download_windows,.singin_button{
+    background-color: var(--cd-logo);
+    border: 0;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 15px 30px;
+}
+    /* footer */
+footer{
+    background-color: var(--cd-opbutt)
+}
+/* footer top */
+.footer_top{
+    border-bottom: 1px solid var(--cd-logo);
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    margin: 0 3rem;
+}
+.footer_top ul{
+    list-style-type: none;
+
+}
+.principal{
+    width: calc((100% / 12) * 4);
+    padding: 5rem;
+}
+.principal h4{
+    color: #7289da;
+    font-size: 30px;
+    padding-bottom: 1rem;
+}
+.product{
+    width: calc((100% / 12) * 2);
+    flex-direction: column;  
+    padding: 5rem;
+}
+.product li:first-child a{
+    color: var(--cd-logo)
+}
+.product li{
+    padding-bottom: 1rem;
+}
+.company{
+    width: calc((100% / 12) * 2);
+    padding: 5rem;
+}
+.company li:first-child a{
+    color: var(--cd-logo)
+}
+.company li{
+    padding-bottom: 1rem;
+}
+.resources{
+    width: calc((100% /12) * 2);
+    padding: 5rem;
+}
+.resources li:first-child a{
+    color: var(--cd-logo)
+}
+.resources li{
+    padding-bottom: 1rem;
+}
+.norms{
+    width: calc((100% / 12) * 2);
+    padding: 5rem;
+}
+.norms li:first-child a{
+    color: var(--cd-logo)
+
+}
+.norms li{
+    padding-bottom: 1rem;
+}
+/* footer bottom */
+.footer_bottom{
+    padding: 2rem 0;
+    justify-content: space-between;
+}
