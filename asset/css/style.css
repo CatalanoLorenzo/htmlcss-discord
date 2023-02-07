@@ -164,12 +164,30 @@ section .fourh{
     align-items: center;
     flex-direction: column;
 }
-.fourh .img{
+.card_fourh .dflex{
+    align-items: center;
+}
+.card_fourh div{
+    text-align: center;
+}
+.fourh .area_text{
     order: -1;
+    width: 100%;
+}
+.fourh h3{
+    text-align: center;
 }
 .fourh h4{
     color: black;
-    font-size: 30px
+    font-size: 30px;
+    text-align: center;
+}
+.fourh p{
+    text-align: center;
+}
+.fourh button{
+    margin-top: 30px;
+    margin-bottom: 40px;
 }
 .download_windows,.singin_button{
     background-color: var(--cd-logo);
