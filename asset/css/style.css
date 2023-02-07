@@ -10,6 +10,11 @@
 .dflex{
     display: flex;
 }
+
+.aligitend{
+    align-items: flex-end;
+}
+
 /* colors */
 :root{
 --cd-bkfooter: #3161e0;
@@ -36,6 +41,7 @@
 }
 .debug .img{
     background-color: rgb(232, 150, 127);
+    
 }
 .debug .area_text{
     background-color: rgb(114, 61, 61);
@@ -98,14 +104,14 @@ main section{
 .card{
     width: 100%;
     justify-content: center;
-    align-items: center;
 }
 .img{
     width: calc((100% / 12) * 8);
     padding: 1rem;
-}
+    flex-direction: column;
+ }
 .img img{
-    width: 100%;
+    width: 80%;
 }
 .area_text{
     width: calc((100% / 12) * 7);
@@ -122,6 +128,11 @@ main section{
     max-width: 50%;
     font-size: 20px;
     line-height: 3rem;
+}
+.area_text div{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
 }
 /* section frist */
 section .frist{
