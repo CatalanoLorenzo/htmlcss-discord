@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body{
     color: white;
     text-decoration: none;
     font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
@@ -10,11 +12,9 @@
 .dflex{
     display: flex;
 }
-
 .aligitend{
     align-items: flex-end;
 }
-
 /* colors */
 :root{
 --cd-bkfooter: #3161e0;
