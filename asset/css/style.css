@@ -134,6 +134,12 @@ main section{
     flex-direction: column;
     align-self: center;
 }
+.wavePath-haxJK1{
+    color: var(--cd-fkwhite);
+}
+.waverotate{
+        transform: rotate(180deg);
+}
 /* section frist */
 section .frist{
     background-color: white;
@@ -142,8 +148,11 @@ section .frist{
     order: -1;
 }
 /* section second */
-section .second{
-    background-color: var(--cd-fkwhite)
+.wave-1hkxOo{
+    margin-bottom: -5px;
+}
+.second{
+    background-color: var(--cd-fkwhite);
 }
 .second .img{
     order: 1;
@@ -156,8 +165,8 @@ section .third{
     order: -1;
 }
 /* fourh section */
-section .fourh{
-    background-color: var(--cd-fkwhite)
+.fourh{
+    background-color: var(--cd-fkwhite);
 }
 .card_fourh{
     width: 100%;
@@ -169,6 +178,11 @@ section .fourh{
 }
 .card_fourh div{
     text-align: center;
+}
+.area_button{
+    background-image: url(../img/stars.svg);
+    background-repeat:repeat-x;
+    background-size: contain;
 }
 .fourh .area_text{
     order: -1;
