@@ -43,8 +43,10 @@
 /* header */
 header{
     flex-direction: column;
-    background-color: var(--cd-bkfooter)
-
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+    height: 625px;
 }
 nav{
     margin: 0 200px;
