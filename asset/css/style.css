@@ -103,6 +103,10 @@ nav button{
     background-color: #ffffff;
     color: var(--cd-dwbutt);
 }
+.download_button svg{
+   width: 20px;
+   margin-right: 8px;
+}
 .open_button{
     background-color: var(--cd-opbutt);
     color: white;
@@ -216,6 +220,10 @@ section .third{
     margin-top: 30px;
     margin-bottom: 40px;
 }
+.download_windows svg{
+    height: 20px;
+    margin-right: 8px;
+}
 .download_windows,.singin_button{
     background-color: var(--cd-logo);
     border: 0;
@@ -240,7 +248,7 @@ footer{
 
 }
 .principal{
-    width: calc((100% / 12) * 2.5);
+    width: calc((100% / 12) * 2.8);
     padding: 5rem;
 }
 .principal h4{
@@ -256,7 +264,7 @@ footer{
     padding: 1.5rem;
 }
 .lenguage img{
-    width: 6%;
+    width: 2rem;
 }
 .lenguage svg{
     height: 20px;
