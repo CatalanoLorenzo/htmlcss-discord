@@ -5,9 +5,14 @@
     box-sizing: border-box;
 }
 body{
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+a{
     color: white;
     text-decoration: none;
-    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+p{
+    color: white;
 }
 .dflex{
     display: flex;
@@ -96,10 +101,11 @@ nav button{
 }
 .download_button{
     background-color: #ffffff;
-    color: var(--cd-dwbutt)
+    color: var(--cd-dwbutt);
 }
 .open_button{
-    background-color: var(--cd-opbutt)
+    background-color: var(--cd-opbutt);
+    color: white;
 }
 /* main */
 main section{
@@ -234,19 +240,35 @@ footer{
 
 }
 .principal{
-    width: calc((100% / 12) * 4);
+    width: calc((100% / 12) * 2.5);
     padding: 5rem;
 }
 .principal h4{
     color: #7289da;
     font-size: 30px;
-    padding-bottom: 1rem;
+    padding: 1.5rem;
+}
+.principal{
+    font-size: 25px;
 }
 .lenguage {
     align-items: center;   
+    padding: 1.5rem;
 }
 .lenguage img{
     width: 6%;
+}
+.lenguage svg{
+    height: 20px;
+    fill: white;
+}
+.icon{
+    padding: 1.5rem;
+}
+.icon svg{
+    height: 20px;
+    fill: white;
+    padding-right: 1.5rem;
 }
 .product{
     width: calc((100% / 12) * 2);
