@@ -242,6 +242,12 @@ footer{
     font-size: 30px;
     padding-bottom: 1rem;
 }
+.lenguage {
+    align-items: center;   
+}
+.lenguage img{
+    width: 6%;
+}
 .product{
     width: calc((100% / 12) * 2);
     flex-direction: column;  
